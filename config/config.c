@@ -12,6 +12,11 @@ int main() {
     // Test 1
     int r = sum(1, 2);
     sprintf(message, "Input 1, 2. Expected output should be 3. Actuel output = %d", r);
-    assert_with_message(sum(1, 2) == 3, message);
+    assert_with_message(r == 3, message);
+
+    // Test 1
+    r = sum(20, 6);
+    sprintf(message, "Input 20, 6. Expected output should be 26. Actuel output = %d", r);
+    assert_with_message(r == 26, message);
     return 0;
 }
