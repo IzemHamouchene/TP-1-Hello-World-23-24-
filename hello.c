@@ -1,8 +1,8 @@
-#include "config\hello.h"
+#include "config/hello.h"
 
 char* HelloWorld() {
     // TODO : result "Hello, World!"
-    char* message;
+    char* message = "";
 
     return message;
 }
